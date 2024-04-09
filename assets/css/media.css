@@ -5,9 +5,7 @@
     .banner-txt h2 {
         margin-left: 70px;
     }
-    .banner-about .banner-txt {
-        top: 85px;
-    }
+
 }
 @media(max-width:1200px){
     .site-logo img {
@@ -22,9 +20,7 @@
     .container {
         padding: 0 20px;
     }
-    .banner-about .banner-txt {
-        top: 60px;
-    }
+ 
     .banner-txt h2 {
         font-size: 30px;
     }
@@ -71,10 +67,7 @@
     .conatct-txt p {
         font-size: 12px;
     }
-    .contact-form .form-group input, .contact-form .form-group textarea {
-        height: 40px;
-        font-size: 12px;
-    }
+ 
     .confidentiality h3 {
         font-size: 20px;
     }
@@ -129,16 +122,11 @@
     font-size: 25px;
     margin-left: 0px;
 }
-.banner-about {
-    height: 31.875vw;
-    margin-top: -12vw;
-}
+
 .banner-txt h2 {
     padding-top: 30px;
 }
-.banner-about .banner-txt {
-    top: 70px;
-}
+
 .footer-logo {
     margin-bottom: 20px;
 }
@@ -170,19 +158,9 @@
 .conatct-txt {
     margin-bottom: 50px;
 }
-section.site-main {
-    margin-top: 90px;
+
 }
-}
-@media(max-width:800px){
-    .banner-about {
-        height: 45.875vw;
-        margin-top: -10vw;
-    }
-    .banner-about .banner-txt {
-        top: 50px;
-    }
-}
+
 @media(max-width:767px){
     .site-logo img {
         max-width: 150px;
@@ -199,9 +177,7 @@ section.site-main {
     font-size: 22px;
     width: 100%;
 }
-.banner-about {
-    height: 100%;
-}
+
 .site-abt {
     margin-bottom: 30px;
 }
@@ -244,12 +220,8 @@ section.site-main {
 .ptb-50 {
     padding: 30px 0;
 }
-.banner-about .banner-txt {
-    top: 30px;
-}
-section.site-main {
-    margin-top: 50px;
-}
+
+
 }
 @media(max-width:575px){
     .container {
@@ -277,19 +249,22 @@ section.site-main {
     .ptb-70 {
         padding: 50px 0;
     }
-    .contact-form button {
-        font-size: 12px;
-        margin-top: 20px;
-    }
-    .contact-form {
-        padding: 25px 10px;
-    }
+  
+   
     .confidentiality h3 {
         font-size: 18px;
     }
     .confidentiality p, .confidentiality ul li {
         font-size: 12px;
         margin-bottom: 5px;
+    }
+    .banner-about::before {
+        top: -100px;
+        left: -10%;
+        height: 300px;
+    }
+    .copy-right p {
+        font-size: 13px;
     }
 }
 @media(max-width:375px){
