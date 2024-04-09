@@ -1,0 +1,327 @@
+@media(max-width:1400px){
+    .nav-links ul li a{
+        font-size: 14px;
+    }
+    .banner-txt h2 {
+        margin-left: 70px;
+    }
+    .banner-about .banner-txt {
+        top: 85px;
+    }
+}
+@media(max-width:1200px){
+    .site-logo img {
+        max-width: 180px;
+    }
+    .nav-links ul {
+        gap: 40px;
+    }
+    .nav-links ul li a {
+        font-size: 13px;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    .banner-about .banner-txt {
+        top: 60px;
+    }
+    .banner-txt h2 {
+        font-size: 30px;
+    }
+    .banner-txt p {
+        font-size: 14px;
+    }
+    .main-card {
+        height: 350px;
+    }
+    .card-txt h3 {
+        font-size: 20px;
+    }
+    .card-txt a {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    .footer-logo img {
+        width: 220px;
+    }
+    .footer-info ul li a {
+        font-size: 14px;
+    }
+    .footer-icon ul li a {
+        font-size: 20px;
+    }
+    .floating-links ul li a {
+        font-size: 22px;
+    }
+    .sub-banner-txt h3 {
+        font-size: 25px;
+    }
+    .sub-banner-txt ul li {
+        font-size: 16px;
+    }
+    .casino-card p, .sub-bnr-txt p {
+        font-size: 14px;
+    }
+    .casino-card h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .casino-card a {
+        font-size: 16px;
+    }
+    .form-heading h3 {
+        font-size: 25px;
+    }
+    .conatct-txt p {
+        font-size: 12px;
+    }
+    .contact-form .form-group input, .contact-form .form-group textarea {
+        height: 40px;
+        font-size: 12px;
+    }
+    .confidentiality h3 {
+        font-size: 20px;
+    }
+    .confidentiality p, .confidentiality ul li {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+}
+@media(max-width:991px){
+    .toggle{
+        display: block;
+    }
+    .toggle i {
+        color: #fff;
+        font-size: 25px;
+    }
+    .nav-links ul {
+        gap: 20px;
+        flex-direction: column;
+        align-items: self-start;
+        padding: 50px 30px;
+    }
+    .nav-links {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 300px;
+        background-color: #000;
+        height: 100vh;
+        transform: translateX(-100%);
+        transition: all 0.3s linear;
+        z-index: 9;
+      
+}
+.close{
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.close i {
+    color: #fff;
+    font-size: 25px;
+}
+.menuToggle .nav-links {
+    transform: translateX(0%);
+}
+.site-banner {
+    height: 75vh;
+}
+.banner-txt h2 {
+    font-size: 25px;
+    margin-left: 0px;
+}
+.banner-about {
+    height: 31.875vw;
+    margin-top: -12vw;
+}
+.banner-txt h2 {
+    padding-top: 30px;
+}
+.banner-about .banner-txt {
+    top: 70px;
+}
+.footer-logo {
+    margin-bottom: 20px;
+}
+.sub-banner-txt h3 {
+    font-size: 22px;
+}
+.sub-banner-txt ul li {
+    font-size: 14px;
+}
+.casino-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.casino-card a {
+    font-size: 14px;
+}
+.casino-img img {
+    height: 460px;
+}
+.faq-sec .accordion-button {
+    font-size: 14px;
+}
+.faq-sec .accordion-body {
+    font-size: 12px;
+}
+.contact-us .row {
+    flex-direction: column-reverse;
+}
+.conatct-txt {
+    margin-bottom: 50px;
+}
+section.site-main {
+    margin-top: 90px;
+}
+}
+@media(max-width:800px){
+    .banner-about {
+        height: 45.875vw;
+        margin-top: -10vw;
+    }
+    .banner-about .banner-txt {
+        top: 50px;
+    }
+}
+@media(max-width:767px){
+    .site-logo img {
+        max-width: 150px;
+    }
+    .toggle i, .floating-links ul li a, .close i {
+        font-size: 22px;
+    }
+    .site-header {
+        padding: 15px 15px;
+        /* background: #333; */
+    }
+
+ .banner-txt h2 {
+    font-size: 22px;
+    width: 100%;
+}
+.banner-about {
+    height: 100%;
+}
+.site-abt {
+    margin-bottom: 30px;
+}
+.main-card {
+    width: 100%;
+    flex: 1;
+    margin-bottom: 20px;
+}
+.main-box {
+    flex-direction: column;
+}
+.card-txt h3 {
+    font-size: 18px;
+}
+.card-txt a {
+    padding: 7px 15px;
+}
+.card-txt {
+    bottom: 30px;
+    left: 20px;
+}
+.casino-img img {
+    height: 300px;
+}
+.casino-card {
+    margin: 20px 0;
+}
+.casino-box {
+    padding: 20px 0;
+    border-bottom: 1px solid #000;
+    margin-top: 0;
+}
+.casino-img {
+    margin-bottom: 20px;
+}
+.form-heading h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.ptb-50 {
+    padding: 30px 0;
+}
+.banner-about .banner-txt {
+    top: 30px;
+}
+section.site-main {
+    margin-top: 50px;
+}
+}
+@media(max-width:575px){
+    .container {
+        padding: 0 10px;
+    }
+    .banner-txt p {
+        font-size: 12px;
+    }
+    .site-banner {
+        height: 50vh;
+    }
+    .footer-info ul {
+        gap: 15px;
+    }
+    .footer-logo img {
+        width: 180px;
+    }
+    .footer-info ul li a {
+        font-size: 12px;
+    }
+    .footer-icon ul li a {
+        font-size: 18px;
+    }
+    .footer-logo {
+        margin-bottom: 10px;
+    }
+    .ptb-70 {
+        padding: 50px 0;
+    }
+    .contact-form button {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .contact-form {
+        padding: 25px 10px;
+    }
+    .confidentiality h3 {
+        font-size: 18px;
+    }
+    .confidentiality p, .confidentiality ul li {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+}
+@media(max-width:375px){
+    .confidentiality h3 {
+        font-size: 16px;
+    }
+    .sub-banner-txt h3 {
+        font-size: 20px;
+    }
+ 
+    .casino-card p, .sub-bnr-txt p,  .sub-banner-txt ul li {
+        font-size: 12px;
+    }
+    .casino-card h3 {
+        font-size: 18px;
+    }
+    .casino-card a {
+        font-size: 12px;
+    }
+    .casino-img img {
+        height: 220px;
+    }
+    .ptb-50 {
+        padding: 25px 0;
+    }
+    .ptb-70 {
+        padding: 30px 0;
+    }
+}

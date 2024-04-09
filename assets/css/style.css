@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif !important;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.container{
+    max-width: 1300px;
+}
+.ptb-70{
+    padding: 70px 0;
+}
+.ptb-50{
+    padding: 50px 0;
+}
+.ptb-30{
+    padding: 30px 0;
+}
+/* global css end here */
+/* header css start here */
+.site-header {
+    padding: 20px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+.site-logo img {
+    max-width: 200px;
+}
+.toggle, .close {
+    display: none;
+}
+.nav-links ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.site-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links ul li a{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .075em;
+}
+.nav-links ul li a:hover{
+    color: #ff4f2e;
+    transition: all 0.3s linear;
+
+}
+.floating-links ul li a {
+    font-size: 25px;
+    color: #ff4f2e;
+}
+.floating-links {
+    position: fixed;
+    top: 50%;
+    right: 5px;
+    transform: translate(0px, -50%);
+    z-index: 9;
+}
+.site-header.fixed-header {
+    background-color: #000;
+    box-shadow: rgb(189 189 189 / 35%) 0px 5px 15px;
+}
+/* header css end here */
+ /* banner css start here */
+.site-banner{
+    background-image: url(../images/hero-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.1;
+}
+.banner-txt h2 {
+    font-size: 35px;
+    line-height: 1.1;
+    color: #000;
+    width: 80%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.banner-about{
+    background-image: url(../images/banner-shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: -8vw;
+    width: 100%;
+    height: 30.875vw;
+}
+.banner-about .banner-txt {
+    position: relative;
+    top: 90px;
+}
+.banner-txt h2 a {
+    color: #ff4f2e;
+}
+.banner-txt p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.site-abt {
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+ 
+}
+ /* banner css end here */
+
+ /* main card section css start here */
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.main-card {
+    width: 25%;
+    flex: 1;
+    height: 400px;
+    cursor: pointer;
+    position: relative;
+    transition: all .4s ease;
+}
+.main-card:hover{
+    flex: 2;
+}
+.main-card::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+  height: 100%;
+    width: 0%;
+    background: linear-gradient(0deg, #000 0, rgba(255, 255, 255, 0) 60%);
+    opacity: 0.5;
+    transition: all 0.5s ease;
+    
+}
+.main-card:hover::before{
+    width: 100%;
+}
+.main-card:hover .card-txt{
+display: block;
+}
+.card-txt{
+    display: none;
+}
+.card-txt h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 5px 0 15px 0;
+    color: #fff;
+}
+
+.card-txt a {
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #ff4f2e;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 1px solid #ff4f2e;
+    transition: all 0.3s linear;
+   
+}
+.card-txt a:hover {
+    background-color: transparent;
+    border-color: #fff;
+}
+.main-img {
+height: 100%;
+}
+.card-txt {
+    text-align: left;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+}
+.main-img a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* .site-main{
+    margin-bottom: 50px;
+} */
+ /* main card section css end here */
+ /* footer section css start here */
+footer{
+    background-color: #000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.footer-logo img {
+    width: 300px;
+}
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.footer-info ul {
+    display: flex;
+    gap: 30px;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer-info ul li a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .075em;
+}
+.footer-icon ul li a {
+    font-size: 25px;
+}
+.footer-icon ul {
+    padding: 0;
+}
+.footer-info ul li a:hover{
+    color: #ff4f2e;
+    transition: all 0.3s linear;
+  
+}
+ /* footer section css end here */
+
+ /* Casino Hotel page css start here */
+ .sub-banner{
+    background-image: url(../images/sub-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+ }
+ .sub-banner .overlay{
+    opacity: 0.5;
+ }
+ .sub-banner-txt{
+    position: relative;
+    z-index: 9;
+ }
+ .sub-banner-txt h3{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+
+}
+.sub-banner-txt ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.sub-banner-txt ul li{
+    font-size: 18px;
+    color: #fff;
+
+}
+.sub-banner-txt ul li a{
+    color: #ff4f2e;
+}
+.casino-card h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000;
+}
+.casino-card p, .sub-bnr-txt p{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.casino-card a {
+    font-size: 18px;
+    color: #ff4f2e;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.casino-card a:hover {
+    color: #000;
+    transition: all 0.3s linear;
+ 
+}
+.casino-box {
+    margin-top: 50px;
+}
+.casino-img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.casino-img:hover img{
+    transform: scale(1.5);
+    transition: all 0.5s linear;
+ 
+}
+.casino-img img{
+    height: 400px;
+    object-fit: cover;
+    border: 5px solid #ff4f2e;
+}
+ /* Casino Hotel page css end here */
+/* faq page css start here */
+.faq-sec .accordion-item {
+    border: 1px solid rgb(248 77 45);
+}
+.faq-sec .accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #ff4f2e;
+    box-shadow: none;
+}
+.faq-sec .accordion-button:not(.collapsed)::after {
+    filter: brightness(0) invert(1);
+}
+.faq-sec .accordion-button:focus {
+    border-color: #ff4f2e;
+    box-shadow: none;
+}
+.faq-sec .accordion-button {
+    font-size: 16px;
+    font-weight: 600;
+}
+.faq-sec .accordion-body {
+    padding: 1rem 1.25rem;
+    font-size: 14px;
+    color: #333;
+}
+
+
+/* contact us page css start here */
+
+.contact-form .form-group input, .contact-form .form-group textarea {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #c1c1c1;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.contact-form .form-group textarea {
+    max-height: 150px;
+    min-height: 150px;
+}
+.contact-form .form-group {
+    margin-bottom: 30px;
+}
+.contact-form .form-group input:focus-visible, .contact-form .form-group textarea:focus-visible {
+    border-color: #ff4f2e;
+}
+.contact-form .form-group input::placeholder, .contact-form .form-group textarea::placeholder {
+    color: #333;
+}
+.contact-form button{
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #ff4f2e;
+    padding: 10px 40px;
+    background-color: #ff4f2e;
+    color: #fff;
+    margin-top:40px;
+    text-transform: uppercase;
+}
+.contact-form button:hover{
+    background-color: transparent;
+    border-color: #000;
+    color: #000;
+    transition: all 0.5s linear;
+ 
+}
+.form-heading h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff4f2e;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.conatct-txt p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.conatct-txt p a {
+    font-weight: 600;
+    color: #ff4f2e;
+}
+.contact-form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px 20px;
+}
+.contact-us .row {
+    align-items: end;
+}
+section.contact-us {
+    background-color: #37373714;
+    max-width: 100%;
+    overflow: hidden;
+}
+.confidentiality h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ff4f2e;
+    margin:20px 0 10px 0;
+}
+.confidentiality p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.confidentiality p a{
+    color: #ff4f2e;
+
+}
+.confidentiality ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+.confidentiality ul li {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+}
+section.casino-main {
+    max-width: 100%;
+    overflow: hidden;
+}
