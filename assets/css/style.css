@@ -57,7 +57,7 @@ img{
     align-items: center;
 }
 .nav-links ul li a{
-    font-size: 16px;
+   
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -66,9 +66,7 @@ img{
 .nav-links ul li a:hover{
     color: #ff4f2e;
     transition: all 0.3s linear;
-
 }
-
 
 .site-header.fixed-header {
     background-color: #000;
@@ -129,7 +127,7 @@ img{
     color: #ff4f2e;
 }
 .banner-txt p {
-    font-size: 16px;
+   
     color: #333;
     margin-bottom: 5px;
 }
@@ -137,7 +135,6 @@ img{
     padding: 20px;
     box-shadow:rgb(0 0 0 / 11%) 0px 5px 40px 10px;
     border-radius: 10px;
- 
 }
  /* banner css end here */
 
@@ -168,7 +165,6 @@ img{
     background: linear-gradient(0deg, #000 0, rgba(255, 255, 255, 0) 60%);
     opacity: 0.5;
     transition: all 0.5s ease;
-    
 }
 .main-card:hover::before{
     width: 100%;
@@ -179,15 +175,19 @@ display: block;
 .card-txt{
     display: none;
 }
-.card-txt h3 {
+.casino-card h3, .card-txt h3 {
     font-size: 25px;
+
+}
+.card-txt h3 {
     font-weight: 600;
     margin: 5px 0 15px 0;
     color: #fff;
 }
-
-.card-txt a {
+.copy-right p, .card-txt a, .faq-sec .accordion-body, .conatct-txt p{
     font-size: 14px;
+}
+.card-txt a {
     padding: 10px 20px;
     background-color: #ff4f2e;
     border-radius: 25px;
@@ -196,7 +196,6 @@ display: block;
     text-transform: capitalize;
     border: 1px solid #ff4f2e;
     transition: all 0.3s linear;
-   
 }
 .card-txt a:hover {
     background-color: transparent;
@@ -216,9 +215,7 @@ height: 100%;
     width: 100%;
     object-fit: cover;
 }
-/* .site-main{
-    margin-bottom: 50px;
-} */
+
  /* main card section css end here */
  /* footer section css start here */
 footer{
@@ -242,8 +239,9 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .footer-info ul li a{
-    font-size: 16px;
+  
     color: #fff;
     font-weight: 600;
     letter-spacing: .075em;
@@ -287,7 +285,7 @@ footer{
     align-items: center;
 }
 .sub-banner-txt ul li{
-    font-size: 18px;
+ 
     color: #fff;
 
 }
@@ -295,18 +293,21 @@ footer{
     color: #ff4f2e;
 }
 .casino-card h3 {
-    font-size: 25px;
+    
     font-weight: 600;
     margin-bottom: 20px;
     color: #000;
 }
+
 .casino-card p, .sub-bnr-txt p{
-    font-size: 16px;
+    
     color: #333;
     margin-bottom: 10px;
 }
-.casino-card a {
+.sub-banner-txt ul li, .casino-card a {
     font-size: 18px;
+}
+.casino-card a {
     color: #ffffff;
     font-weight: 600;
     text-decoration: none;
@@ -355,25 +356,17 @@ footer{
     border-color: #ff4f2e;
     box-shadow: none;
 }
+
 .faq-sec .accordion-button {
-    font-size: 16px;
+ 
     font-weight: 600;
 }
 .faq-sec .accordion-body {
     padding: 1rem 1.25rem;
-    font-size: 14px;
+  
     color: #333;
 }
-
-
 /* contact us page css start here */
-
-
-
-
-
-
-
 .form-heading h3 {
     font-size: 30px;
     font-weight: 600;
@@ -382,7 +375,6 @@ footer{
     text-align: center;
 }
 .conatct-txt p {
-    font-size: 14px;
     color: #333;
     margin-bottom: 10px;
 }
@@ -390,10 +382,6 @@ footer{
     font-weight: 600;
     color: #ff4f2e;
 }
-/* .contact-form {
-    box-shadow: rgb(0 0 0 / 11%) 0px 5px 40px 10px;
-    padding: 30px 20px;
-} */
 .contact-us .row {
     align-items: end;
 }
@@ -408,8 +396,9 @@ section.contact-us {
     color: #ff4f2e;
     margin:20px 0 10px 0;
 }
+
 .confidentiality p {
-    font-size: 16px;
+ 
     color: #333;
     margin-bottom: 10px;
 }
@@ -421,8 +410,12 @@ section.contact-us {
     list-style: disc;
     padding-left: 20px;
 }
-.confidentiality ul li {
+.confidentiality ul li, .confidentiality p, .nav-links ul li a, .banner-txt p, .footer-info ul li a, .casino-card p, .sub-bnr-txt p, .faq-sec .accordion-button 
+{
     font-size: 16px;
+
+}
+.confidentiality ul li {
     font-weight: 600;
     color: #000;
     margin-bottom: 10px;
@@ -432,7 +425,7 @@ section.casino-main {
     overflow: hidden;
 }
 .copy-right p{
-    font-size: 14px;
+  
     color: #d8d5d5;
     text-align: center;
     margin-bottom: 0;
