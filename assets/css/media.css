@@ -47,12 +47,8 @@
     .footer-info ul li a {
         font-size: 14px;
     }
-    .footer-icon ul li a {
-        font-size: 20px;
-    }
-    .floating-links ul li a {
-        font-size: 22px;
-    }
+   
+    
     .sub-banner-txt h3 {
         font-size: 25px;
     }
@@ -191,7 +187,7 @@ section.site-main {
     .site-logo img {
         max-width: 150px;
     }
-    .toggle i, .floating-links ul li a, .close i {
+    .toggle i, .close i {
         font-size: 22px;
     }
     .site-header {
@@ -274,9 +270,7 @@ section.site-main {
     .footer-info ul li a {
         font-size: 12px;
     }
-    .footer-icon ul li a {
-        font-size: 18px;
-    }
+ 
     .footer-logo {
         margin-bottom: 10px;
     }

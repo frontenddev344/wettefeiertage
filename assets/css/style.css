@@ -68,17 +68,8 @@ img{
     transition: all 0.3s linear;
 
 }
-.floating-links ul li a {
-    font-size: 25px;
-    color: #ff4f2e;
-}
-.floating-links {
-    position: fixed;
-    top: 50%;
-    right: 5px;
-    transform: translate(0px, -50%);
-    z-index: 9;
-}
+
+
 .site-header.fixed-header {
     background-color: #000;
     box-shadow: rgb(189 189 189 / 35%) 0px 5px 15px;
@@ -249,12 +240,8 @@ footer{
     font-weight: 600;
     letter-spacing: .075em;
 }
-.footer-icon ul li a {
-    font-size: 25px;
-}
-.footer-icon ul {
-    padding: 0;
-}
+
+
 .footer-info ul li a:hover{
     color: #ff4f2e;
     transition: all 0.3s linear;
@@ -312,12 +299,19 @@ footer{
 }
 .casino-card a {
     font-size: 18px;
-    color: #ff4f2e;
+    color: #ffffff;
     font-weight: 600;
-    text-decoration: underline;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #ff4f2e;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ff4f2e;
 }
 .casino-card a:hover {
-    color: #000;
+    background-color: transparent;
+    color: #ff4f2e;
     transition: all 0.3s linear;
  
 }
@@ -329,11 +323,7 @@ footer{
     width: 100%;
     overflow: hidden;
 }
-.casino-img:hover img{
-    transform: scale(1.5);
-    transition: all 0.5s linear;
- 
-}
+
 .casino-img img{
     height: 400px;
     object-fit: cover;
@@ -465,4 +455,10 @@ section.contact-us {
 section.casino-main {
     max-width: 100%;
     overflow: hidden;
+}
+.copy-right p{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
 }
