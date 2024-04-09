@@ -152,18 +152,18 @@
 .faq-sec .accordion-body {
     font-size: 12px;
 }
-.contact-us .row {
-    flex-direction: column-reverse;
+
+.contact-img {
+    margin-bottom: 30px;
 }
-.conatct-txt {
-    margin-bottom: 50px;
-}
+
 
 }
 
 @media(max-width:767px){
+ 
     .site-logo img {
-        max-width: 150px;
+        max-width: 120px;
     }
     .toggle i, .close i {
         font-size: 22px;
@@ -264,7 +264,7 @@
         height: 300px;
     }
     .copy-right p {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 @media(max-width:375px){
