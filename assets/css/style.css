@@ -39,6 +39,7 @@ img{
     position: fixed;
     width: 100%;
     z-index: 99;
+    background: #00000040;
 }
 .site-logo img {
     max-width: 200px;
@@ -63,7 +64,7 @@ img{
     font-weight: 600;
     letter-spacing: .075em;
 }
-.nav-links ul li a:hover{
+.nav-links ul li a:hover, .nav-links ul li a.active {
     color: #ff4f2e;
     transition: all 0.3s linear;
 }
@@ -383,7 +384,7 @@ footer{
     color: #ff4f2e;
 }
 .contact-us .row {
-    align-items: end;
+    align-items: center;
 }
 section.contact-us {
     background-color: #37373714;

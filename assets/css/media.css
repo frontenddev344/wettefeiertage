@@ -190,8 +190,14 @@
     .ptb-50 {
         padding: 30px 0;
    }
+   .casino-box:nth-child(1) .row, .casino-box:nth-child(3) .row, .casino-box:nth-child(5) .row{
+    flex-direction: column-reverse;
+   }
 }
 @media(max-width:575px){
+    .nav-links {
+        width: 100%;
+    }
     .container {
         padding: 0 10px;
    }
