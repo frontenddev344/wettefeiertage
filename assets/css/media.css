@@ -60,6 +60,9 @@
     .confidentiality p, .confidentiality ul li {
         margin-bottom: 7px;
    }
+   .banner-txt h2 {
+    margin-left: 5px;
+}
 }
 @media(max-width:991px){
     .toggle{
@@ -104,7 +107,7 @@
    }
     .banner-txt h2 {
         font-size: 25px;
-        margin-left: 0px;
+        margin-left: 5px;
    }
     .banner-txt h2 {
         padding-top: 30px;
