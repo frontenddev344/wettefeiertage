@@ -39,7 +39,7 @@ img{
     position: fixed;
     width: 100%;
     z-index: 99;
-    background: #00000040;
+    /* background: #00000040; */
 }
 .site-logo img {
     max-width: 200px;
@@ -59,7 +59,7 @@ img{
 }
 .nav-links ul li a{
    
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: .075em;
@@ -70,7 +70,7 @@ img{
 }
 
 .site-header.fixed-header {
-    background-color: #000;
+    background-color: #fff;
     box-shadow: rgb(189 189 189 / 35%) 0px 5px 15px;
 }
 /* header css end here */
@@ -220,7 +220,7 @@ height: 100%;
  /* main card section css end here */
  /* footer section css start here */
 footer{
-    background-color: #000;
+    background-color: #fff;
     box-shadow: rgb(0 0 0 / 11%) 0px 5px 40px 10px;
 }
 .footer-logo img {
@@ -234,16 +234,22 @@ footer{
 }
 .footer-info ul {
     display: flex;
-    gap: 30px;
+    gap: 15px;
     padding: 20px 0;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
-
+.footer-info {
+    width: 60%;
+    margin: 0 auto;
+}
+.footer-info ul li {
+    line-height: 1;
+}
 .footer-info ul li a{
   
-    color: #fff;
+    color: #000;
     font-weight: 600;
     letter-spacing: .075em;
 }
@@ -341,15 +347,25 @@ footer{
     margin-top: 50px;
 }
 .casino-img {
-    height: 100%;
+    height: 400px;
+    border: 5px solid #ff4f2e;
     width: 100%;
     overflow: hidden;
+
 }
 
 .casino-img img{
-    height: 400px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
-    border: 5px solid #ff4f2e;
+}
+.casino-img:hover img{
+ transform: scale(1.2);
+ transition: all 0.3s linear;
+ -webkit-transition: all 0.3s linear;
+ -moz-transition: all 0.3s linear;
+ -ms-transition: all 0.3s linear;
+ -o-transition: all 0.3s linear;
 }
  /* Casino Hotel page css end here */
 /* faq page css start here */
@@ -439,7 +455,7 @@ section.casino-main {
 }
 .copy-right p{
   
-    color: #d8d5d5;
+    color: #0f0f0f;
     text-align: center;
     margin-bottom: 0;
 }

@@ -125,7 +125,7 @@
         font-size: 20px;
         margin-bottom: 5px;
    }
-    .casino-img img {
+    .casino-img {
         height: 460px;
    }
   
@@ -135,6 +135,12 @@
     .contact-img {
         margin-bottom: 30px;
    }
+   .footer-info {
+    width: 90%;
+}
+#cookies-popup p, #cookies-popup button {
+    font-size: 14px;
+}
 }
 @media(max-width:767px){
     .site-logo img {
@@ -172,7 +178,7 @@
         bottom: 30px;
         left: 20px;
    }
-    .casino-img img {
+    .casino-img {
         height: 300px;
    }
     .casino-card {
@@ -196,6 +202,10 @@
    .casino-box:nth-child(1) .row, .casino-box:nth-child(3) .row, .casino-box:nth-child(5) .row{
     flex-direction: column-reverse;
    }
+   .footer-info {
+    width: 100%;
+}
+
 }
 @media(max-width:575px){
     .nav-links {
@@ -209,8 +219,9 @@
         height: 50vh;
    }
     .footer-info ul {
-        gap: 15px;
+        gap: 10px;
    }
+ 
     .footer-logo img {
         width: 130px;
    }
@@ -257,7 +268,7 @@
         font-size: 18px;
    }
  
-    .casino-img img {
+    .casino-img {
         height: 220px;
    }
     .ptb-50 {
