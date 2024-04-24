@@ -265,6 +265,18 @@ footer{
     padding: 100px 0;
     position: relative;
  }
+.restaurant-banner{
+    background-image: url(../images/RESTAURAN-banner.jpg);
+}
+.concerts-banner{
+    background-image: url(../images/CONCERTS-banner.jpg);
+}
+.contact-bnr{
+    background-image: url(../images/contact-bnr.jpg);
+}
+.privacy-banner{
+    background-image: url(../images/privacy-banner.jpg);
+}
  .sub-banner .overlay{
     opacity: 0.5;
  }
