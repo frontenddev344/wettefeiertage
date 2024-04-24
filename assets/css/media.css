@@ -65,11 +65,14 @@
 }
 }
 @media(max-width:991px){
+    .nav-links ul li a {
+        color: #fff;
+    }
     .toggle{
         display: block;
    }
     .toggle i {
-        color: #fff;
+        color: #000;
         font-size: 25px;
    }
     .nav-links ul {
