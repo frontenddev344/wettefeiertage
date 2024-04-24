@@ -284,6 +284,9 @@ footer{
 .privacy-banner{
     background-image: url(../images/privacy-banner.jpg);
 }
+.faq-banner {
+    background-image: url(../images/faq-banner.jpg);
+}
  .sub-banner .overlay{
     opacity: 0.5;
  }
@@ -337,11 +340,11 @@ footer{
     margin-top: 20px;
     border-radius: 5px;
     border: 1px solid #ff4f2e;
+    transition: all 0.3s linear;
 }
 .casino-card a:hover {
     background-color: transparent;
     color: #ff4f2e;
-    transition: all 0.3s linear;
  
 }
 .casino-box {
@@ -356,17 +359,15 @@ footer{
 }
 
 .casino-img img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+ transition: all 0.5s linear;
+
 }
 .casino-img:hover img{
  transform: scale(1.2);
- transition: all 0.3s linear;
- -webkit-transition: all 0.3s linear;
- -moz-transition: all 0.3s linear;
- -ms-transition: all 0.3s linear;
- -o-transition: all 0.3s linear;
+
 }
  /* Casino Hotel page css end here */
 /* faq page css start here */
