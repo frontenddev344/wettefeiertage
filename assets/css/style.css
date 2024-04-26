@@ -41,7 +41,7 @@ img{
     background: #fff;
 }
 .site-logo img {
-    max-width: 200px;
+    max-width: 220px;
 }
 .toggle, .close {
     display: none;
@@ -64,7 +64,7 @@ img{
     letter-spacing: .075em;
 }
 .nav-links ul li a:hover, .nav-links ul li a.active {
-    color: #ff4f2e;
+    color: #b39700;
     transition: all 0.3s linear;
 }
 
@@ -126,7 +126,7 @@ img{
 }
 
 .banner-txt h2 a {
-    color: #ff4f2e;
+    color: #b39700;
 }
 .banner-txt p {
    
@@ -191,12 +191,12 @@ display: block;
 }
 .card-txt a {
     padding: 10px 20px;
-    background-color: #ff4f2e;
+    background-color: #b39700;
     border-radius: 25px;
     color: #fff;
     font-weight: 500;
     text-transform: capitalize;
-    border: 1px solid #ff4f2e;
+    border: 1px solid #b39700;
     transition: all 0.3s linear;
 }
 .card-txt a:hover {
@@ -257,7 +257,7 @@ footer{
 
 
 .footer-info ul li a:hover{
-    color: #ff4f2e;
+    color: #b39700;
     transition: all 0.3s linear;
   
 }
@@ -313,7 +313,7 @@ footer{
 
 }
 .sub-banner-txt ul li a{
-    color: #ff4f2e;
+    color: #b39700;
 }
 .casino-card h3 {
     
@@ -335,16 +335,16 @@ footer{
     font-weight: 600;
     text-decoration: none;
     padding: 10px 40px;
-    background-color: #ff4f2e;
+    background-color: #b39700;
     display: inline-block;
     margin-top: 20px;
     border-radius: 5px;
-    border: 1px solid #ff4f2e;
+    border: 1px solid #b39700;
     transition: all 0.3s linear;
 }
 .casino-card a:hover {
     background-color: transparent;
-    color: #ff4f2e;
+    color: #b39700;
  
 }
 .casino-box {
@@ -352,7 +352,7 @@ footer{
 }
 .casino-img {
     height: 400px;
-    border: 5px solid #ff4f2e;
+    border: 5px solid #b39700;
     width: 100%;
     overflow: hidden;
 
@@ -372,19 +372,19 @@ footer{
  /* Casino Hotel page css end here */
 /* faq page css start here */
 .faq-sec .accordion-item {
-    border: 1px solid rgb(248 77 45);
+    border: 1px solid rgb(179 151 0);
     margin-bottom: 30px;
 }
 .faq-sec .accordion-button:not(.collapsed) {
     color: #ffffff;
-    background-color: #ff4f2e;
+    background-color: #b39700;
     box-shadow: none;
 }
 .faq-sec .accordion-button:not(.collapsed)::after {
     filter: brightness(0) invert(1);
 }
 .faq-sec .accordion-button:focus {
-    border-color: #ff4f2e;
+    border-color: #b39700;
     box-shadow: none;
 }
 
@@ -401,7 +401,7 @@ footer{
 .form-heading h3 {
     font-size: 30px;
     font-weight: 600;
-    color: #ff4f2e;
+    color: #b39700;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -411,7 +411,7 @@ footer{
 }
 .conatct-txt p a {
     font-weight: 600;
-    color: #ff4f2e;
+    color: #b39700;
 }
 .contact-us .row {
     align-items: center;
@@ -424,7 +424,7 @@ section.contact-us {
 .confidentiality h3 {
     font-size: 22px;
     font-weight: 600;
-    color: #ff4f2e;
+    color: #b39700;
     margin:20px 0 10px 0;
 }
 
@@ -434,7 +434,7 @@ section.contact-us {
     margin-bottom: 10px;
 }
 .confidentiality p a{
-    color: #ff4f2e;
+    color: #b39700;
 
 }
 .confidentiality ul {
